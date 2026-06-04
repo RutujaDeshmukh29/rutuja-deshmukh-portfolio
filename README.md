@@ -2,16 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey,%20I'm%20Rutuja!%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%7C%20Building%20Intelligent%20Systems&descSize=18&descColor=a5b4fc&descAlignY=62" width="100%" alt="Rutuja Deshmukh GitHub Profile Header"/>
 
-<!-- Typing SVG -->
-<a href="https://github.com/RutujaDeshmukh29">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=Generative+AI+%7C+RAG+Pipelines+%7C+LangGraph;Multi-Agent+Systems+%7C+LLM+Applications;FastAPI+%7C+ChromaDB+%7C+LangChain;Building+Production+AI+Systems+🚀" alt="Typing SVG" />
-</a>
-
-<br/>
-<br/>
 
 <!-- Profile badges -->
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6366f1?style=for-the-badge&logoColor=white)](https://rutuja-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6366f1?style=for-the-badge&logoColor=white)](https://rutuja-portfolio-two.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rutuja-deshmukh29)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deshmukhrutuja2908@gmail.com?subject=Hello%20Rutuja&body=Hi%20Rutuja%2C%0A%0AI%20would%20like%20to%20connect%20about%20...)
 
@@ -231,7 +224,7 @@ If you're building something exciting in AI — let's talk!
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_View_Portfolio-6366f1?style=for-the-badge)](https://rutuja-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_View_Portfolio-6366f1?style=for-the-badge)](https://rutuja-portfolio-two.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rutuja-deshmukh29)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deshmukhrutuja2908@gmail.com?subject=Hello%20Rutuja&body=Hi%20Rutuja%2C%0A%0AI%20would%20like%20to%20connect%20about%20...)
 <br/>
