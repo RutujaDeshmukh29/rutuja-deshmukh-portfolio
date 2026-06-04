@@ -2,13 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey,%20I'm%20Rutuja!%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%7C%20Building%20Intelligent%20Systems&descSize=18&descColor=a5b4fc&descAlignY=62" width="100%" alt="Rutuja Deshmukh GitHub Profile Header"/>
 
-<!-- Typing SVG -->
-<a href="https://github.com/RutujaDeshmukh29">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=Generative+AI+%7C+RAG+Pipelines+%7C+LangGraph;Multi-Agent+Systems+%7C+LLM+Applications;FastAPI+%7C+ChromaDB+%7C+LangChain;Building+Production+AI+Systems+🚀" alt="Typing SVG" />
-</a>
-
-<br/>
-<br/>
 
 <!-- Profile badges -->
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6366f1?style=for-the-badge&logoColor=white)](https://rutuja-portfolio-two.vercel.app/)
