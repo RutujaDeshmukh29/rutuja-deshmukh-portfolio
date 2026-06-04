@@ -11,7 +11,7 @@
 <br/>
 
 <!-- Profile badges -->
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6366f1?style=for-the-badge&logoColor=white)](https://rutuja-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6366f1?style=for-the-badge&logoColor=white)](https://rutuja-portfolio-two.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rutuja-deshmukh29)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deshmukhrutuja2908@gmail.com)
 
@@ -231,7 +231,7 @@ If you're building something exciting in AI — let's talk!
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_View_Portfolio-6366f1?style=for-the-badge)](https://rutuja-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_View_Portfolio-6366f1?style=for-the-badge)](https://rutuja-portfolio-two.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rutuja-deshmukh29)
 [![Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deshmukhrutuja2908@gmail.com)
 
