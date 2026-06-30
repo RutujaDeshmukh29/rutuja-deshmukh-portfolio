@@ -8,9 +8,23 @@ import {
   CheckCircle2,
   GraduationCap,
   Code2,
+  Award,
 } from "lucide-react";
 
-const experience = [
+interface ExperienceItem {
+  role: string;
+  company: string;
+  period: string;
+  location: string;
+  type: string;
+  icon: any;
+  color: string;
+  responsibilities: string[];
+  tech: string[];
+  certificate?: string;
+}
+
+const experience: ExperienceItem[] = [
   {
     role: "Python & Data Engineering Intern",
     company: "ProWorld Technology Pvt. Ltd.",
@@ -20,12 +34,13 @@ const experience = [
     icon: Briefcase,
     color: "indigo",
     responsibilities: [
-      "Contributed to Django-based application development — e-commerce platform & smart energy management systems",
-      "Developed responsive UI components, improving user interaction workflows and experience",
-      "Worked with backend integration and real-world software development practices",
-      "Collaborated on feature implementation and debugging in team-based environments",
+      "Developed responsive front-end user interface layouts using HTML, CSS, and Django templates to ensure clean, interactive design.",
+      "Designed and structured UI interfaces for an AI-Based Energy Monitoring System and the EcoCart E-commerce website.",
+      "Integrated frontend templates with Python backend systems and handled basic data flow workflows.",
+      "Collaborated in a team-based environment to adopt real-world development workflows, testing, and interface optimization.",
     ],
-    tech: ["Python", "Django", "JavaScript", "HTML/CSS", "IoT", "Analytics"],
+    tech: ["Python", "Django", "JavaScript", "HTML/CSS", "UI/UX", "Data Flow"],
+    certificate: "/certificates/rutuja-deshmukh-proworld-internship.pdf",
   },
 ];
 
@@ -108,7 +123,6 @@ export default function Experience() {
 
               {experience.map((exp, i) => {
                 const c = colorMap[exp.color];
-                const Icon = exp.icon;
                 return (
                   <motion.div
                     key={exp.role}
@@ -121,41 +135,54 @@ export default function Experience() {
                     {/* Timeline dot */}
                     <div className={`absolute left-2 top-1 w-4 h-4 rounded-full ${c.dot} ring-4 ring-background`} />
 
-                    <div className={`glass glass-hover rounded-2xl p-6 border ${c.border}`}>
-                      <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
+                    <div className={`glass glass-hover rounded-2xl p-6 md:p-8 border ${c.border}`}>
+                      <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                         <div>
-                          <h4 className="font-display font-semibold text-white">{exp.role}</h4>
-                          <p className={`font-body text-sm font-medium ${c.text}`}>{exp.company}</p>
+                          <h4 className="font-display text-xl font-bold text-white mb-1">{exp.role}</h4>
+                          <p className={`font-body text-base font-medium ${c.text}`}>{exp.company}</p>
                         </div>
-                        <span className={`text-xs font-mono ${c.text} ${c.bg} px-2.5 py-1 rounded-full border ${c.border}`}>
+                        <span className={`text-xs font-mono ${c.text} ${c.bg} px-3 py-1 rounded-full border ${c.border}`}>
                           {exp.type}
                         </span>
                       </div>
 
-                      <div className="flex flex-wrap gap-4 mb-4 text-xs text-zinc-500 font-mono">
-                        <span className="flex items-center gap-1">
-                          <Calendar size={11} /> {exp.period}
+                      <div className="flex flex-wrap gap-4 mb-6 text-sm text-zinc-500 font-mono">
+                        <span className="flex items-center gap-1.5">
+                          <Calendar size={13} /> {exp.period}
                         </span>
-                        <span className="flex items-center gap-1">
-                          <MapPin size={11} /> {exp.location}
+                        <span className="flex items-center gap-1.5">
+                          <MapPin size={13} /> {exp.location}
                         </span>
                       </div>
 
-                      <ul className="space-y-2 mb-4">
+                      <ul className="space-y-3 mb-6">
                         {exp.responsibilities.map((r) => (
-                          <li key={r} className="flex items-start gap-2">
-                            <CheckCircle2 size={13} className={`${c.text} mt-0.5 flex-shrink-0`} />
-                            <span className="font-body text-xs text-zinc-400 leading-relaxed">{r}</span>
+                          <li key={r} className="flex items-start gap-2.5">
+                            <CheckCircle2 size={15} className={`${c.text} mt-0.5 flex-shrink-0`} />
+                            <span className="font-body text-sm text-zinc-300 leading-relaxed">{r}</span>
                           </li>
                         ))}
                       </ul>
 
-                      <div className="flex flex-wrap gap-1.5">
-                        {exp.tech.map((t) => (
-                          <span key={t} className={`text-xs px-2 py-0.5 rounded font-mono ${c.bg} ${c.text} border ${c.border}`}>
-                            {t}
-                          </span>
-                        ))}
+                      <div className="flex flex-wrap items-center justify-between gap-4 mt-6 pt-6 border-t border-white/[0.06]">
+                        <div className="flex flex-wrap gap-2">
+                          {exp.tech.map((t) => (
+                            <span key={t} className={`text-xs px-2.5 py-1 rounded-lg font-mono ${c.bg} ${c.text} border ${c.border}`}>
+                              {t}
+                            </span>
+                          ))}
+                        </div>
+                        {exp.certificate && (
+                          <a
+                            href={exp.certificate}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`inline-flex items-center gap-1.5 text-xs font-mono font-medium ${c.text} hover:underline`}
+                          >
+                            <Award size={14} />
+                            View Credential →
+                          </a>
+                        )}
                       </div>
                     </div>
                   </motion.div>
@@ -194,60 +221,33 @@ export default function Experience() {
                   >
                     <div className={`absolute left-2 top-1 w-4 h-4 rounded-full ${c.dot} ring-4 ring-background`} />
 
-                    <div className={`glass glass-hover rounded-2xl p-6 border ${c.border}`}>
-                      <h4 className="font-display font-semibold text-white mb-1 leading-tight">
+                    <div className={`glass glass-hover rounded-2xl p-6 md:p-8 border ${c.border}`}>
+                      <h4 className="font-display text-xl font-bold text-white mb-1.5 leading-tight">
                         {edu.degree}
                       </h4>
-                      <p className={`font-body text-sm font-medium ${c.text} mb-3`}>
+                      <p className={`font-body text-base font-medium ${c.text} mb-4`}>
                         {edu.institution}
                       </p>
 
-                      <div className="flex flex-wrap gap-4 mb-3 text-xs text-zinc-500 font-mono">
-                        <span className="flex items-center gap-1">
-                          <Calendar size={11} /> {edu.period}
+                      <div className="flex flex-wrap gap-4 mb-4 text-xs text-zinc-500 font-mono">
+                        <span className="flex items-center gap-1.5">
+                          <Calendar size={13} /> {edu.period}
                         </span>
-                        <span className="flex items-center gap-1">
-                          <MapPin size={11} /> {edu.location}
+                        <span className="flex items-center gap-1.5">
+                          <MapPin size={13} /> {edu.location}
                         </span>
                       </div>
 
-                      <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-lg ${c.bg} border ${c.border}`}>
-                        <Code2 size={12} className={c.text} />
+                      <div className={`inline-flex items-center gap-2 px-3 py-2 rounded-lg ${c.bg} border ${c.border}`}>
+                        <Code2 size={14} className={c.text} />
                         <span className={`font-mono text-sm font-semibold ${c.text}`}>
-                          {edu.score}
+                          Score: {edu.score}
                         </span>
                       </div>
                     </div>
                   </motion.div>
                 );
               })}
-
-              {/* Certifications */}
-              <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.3 }}
-                className="pl-12"
-              >
-                <div className="glass glass-hover rounded-2xl p-6 border border-white/[0.06]">
-                  <h4 className="font-display font-semibold text-white mb-4">Certifications</h4>
-                  <ul className="space-y-2">
-                    {[
-                      "AWS Academy Graduate – Cloud Foundations",
-                      "Introduction to Generative AI – Google Cloud",
-                      "Build AI Agents using LangGraph – Simplilearn",
-                      "Big Data Analytics – Infosys Springboard",
-                      "Python Training – IIT Bombay",
-                    ].map((cert) => (
-                      <li key={cert} className="flex items-start gap-2">
-                        <CheckCircle2 size={12} className="text-zinc-500 mt-0.5 flex-shrink-0" />
-                        <span className="font-body text-xs text-zinc-400">{cert}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </motion.div>
             </div>
           </div>
         </div>

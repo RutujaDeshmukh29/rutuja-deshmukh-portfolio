@@ -7,6 +7,7 @@ import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
 import Architecture from "@/components/Architecture";
 import Experience from "@/components/Experience";
+import Certifications from "@/components/Certifications";
 import Achievements from "@/components/Achievements";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -23,6 +24,7 @@ export default function Home() {
       <Projects />
       <Architecture />
       <Experience />
+      <Certifications />
       <Achievements />
       <Contact />
       <Footer />

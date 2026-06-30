@@ -74,18 +74,18 @@ rutuja = {
 <td width="50%">
 
 ### 🏆 AI Multi-Agent Workspace
-> Flagship project — collaborative AI agents for research, coding, planning, and orchestration
+> Flagship project — 6 collaborative AI agents orchestrated with LangGraph, real-time SSE streaming, and persistent memory
 
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-6366f1?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
 **Key features:**
-- Specialized agents: Research · Code · Plan · Critique · Memory
-- Persistent context via PostgreSQL + vector retrieval
-- LangGraph state machine orchestration
-- Modern SaaS-style frontend
+- 6 specialized AI agents orchestrated with LangGraph
+- Real-time Server-Sent Events (SSE) streaming for agent actions
+- Persistent memory with Supabase (PostgreSQL + pgvector)
+- Modern SaaS-style frontend with Next.js
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://ai-multi-agent-workspace.vercel.app/)
 [![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RutujaDeshmukh29/AI-Multi-Agent-Research-Engineering-Workspace.git)
@@ -102,7 +102,7 @@ rutuja = {
 ![Groq](https://img.shields.io/badge/Groq_API-F55036?style=flat-square)
 
 **Key features:**
-- Hybrid RAG pipeline with semantic search
+- Hybrid RAG pipeline with 90%+ retrieval accuracy on PDFs
 - 5 adaptive learning modes
 - Quiz generation + personalized roadmaps
 - Voice interaction + analytics dashboard

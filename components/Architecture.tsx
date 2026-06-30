@@ -22,7 +22,7 @@ const architectures = [
     steps: [
       { icon: Network, label: "Router Agent", desc: "Intelligent task routing" },
       { icon: Bot, label: "Specialist Agents", desc: "Research, Code, Plan, Critique" },
-      { icon: MemoryStick, label: "Memory Manager", desc: "Persistent PostgreSQL state" },
+      { icon: MemoryStick, label: "Memory Manager", desc: "Persistent Supabase state" },
       { icon: Workflow, label: "Output Synthesis", desc: "Unified response delivery" },
     ],
   },
