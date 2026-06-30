@@ -35,7 +35,7 @@ const education = [
     institution: "K. K. Wagh Polytechnic",
     period: "2023 – Jul 2026",
     location: "Nashik, Maharashtra",
-    score: "91.65% (5th Sem)",
+    score: "89.59% (Final Year)",
     icon: GraduationCap,
     color: "purple",
   },

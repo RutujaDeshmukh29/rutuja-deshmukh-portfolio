@@ -51,7 +51,8 @@ const projects: Project[] = [
       "Research workflows with semantic retrieval",
       "Modern SaaS-style frontend with Next.js",
     ],
-    github: "https://github.com/RutujaDeshmukh29",
+    github: "https://github.com/RutujaDeshmukh29/AI-Multi-Agent-Research-Engineering-Workspace.git",
+    demo: "https://ai-multi-agent-workspace.vercel.app/",
     icon: Bot,
     color: "from-indigo-600 to-purple-600",
     badge: "🏆 Flagship",
@@ -272,12 +273,10 @@ export default function Projects() {
                   isFlagship ? `border ${c.border} shadow-xl ${c.glow}` : ""
                 }`}
               >
-                <div className={`grid ${isFlagship ? "lg:grid-cols-5" : "md:grid-cols-3"} gap-0`}>
+                <div className="grid md:grid-cols-3 gap-0">
                   {/* Left: color panel */}
                   <div
-                    className={`${
-                      isFlagship ? "lg:col-span-2" : ""
-                    } relative bg-gradient-to-br ${project.color} p-8 flex flex-col justify-between min-h-[200px]`}
+                    className={`relative bg-gradient-to-br ${project.color} p-8 flex flex-col justify-between min-h-[200px]`}
                   >
                     <div>
                       {project.badge && (
@@ -300,7 +299,7 @@ export default function Projects() {
                   </div>
 
                   {/* Right: content */}
-                  <div className={`${isFlagship ? "lg:col-span-3" : ""} p-8 flex flex-col justify-between`}>
+                  <div className="md:col-span-2 p-8 flex flex-col justify-between">
                     <div>
                       <h3 className="font-display text-xl font-bold text-white mb-3 leading-tight">
                         {project.title}

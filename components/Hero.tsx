@@ -107,9 +107,10 @@ export default function Hero() {
         <Image
           src="/profile.jpg"
           alt="Rutuja Deshmukh"
-          width={120}
-          height={120}
-          className="rounded-full border-2 border-indigo-500/30 mx-auto mb-6"
+          width={192}
+          height={192}
+          className="rounded-full border-2 border-indigo-500/30 mx-auto mb-6 w-48 h-48"
+          priority
         />
 
         {/* Greeting */}
@@ -206,7 +207,7 @@ export default function Hero() {
         >
           {[
             { value: "6+", label: "AI Projects" },
-            { value: "91.65%", label: "Diploma AIML" },
+            { value: "89.59%", label: "Diploma AIML" },
             { value: "RAG", label: "Architecture" },
             { value: "1", label: "Published Paper" },
           ].map(({ value, label }) => (

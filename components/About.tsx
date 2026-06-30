@@ -23,7 +23,7 @@ const specializations = [
 const stats = [
   { value: "3+", label: "AI Projects Deployed", icon: Zap },
   { value: "6+", label: "Tech Stack Tools", icon: Code2 },
-  { value: "91.65%", label: "AIML Diploma Score", icon: BookOpen },
+  { value: "89.59%", label: "AIML Diploma Score", icon: BookOpen },
   { value: "1", label: "Research Publication", icon: Globe },
 ];
 
@@ -53,7 +53,7 @@ export default function About() {
           <p className="font-body text-zinc-400 text-lg max-w-3xl mx-auto leading-relaxed">
             I&apos;m Rutuja — an aspiring AI Engineer from Nashik, India. Fresh from a
             Diploma in AI & ML with{" "}
-            <span className="text-white font-medium">91.65%</span>, I specialize in
+            <span className="text-white font-medium">89.59%</span>, I specialize in
             architecting intelligent systems that combine{" "}
             <span className="text-indigo-400 font-medium">RAG pipelines</span>,{" "}
             <span className="text-purple-400 font-medium">multi-agent orchestration</span>,

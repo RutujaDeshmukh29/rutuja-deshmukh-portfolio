@@ -24,7 +24,7 @@
 rutuja = {
     "role":        "Aspiring AI Engineer",
     "location":    "Nashik, Maharashtra 🇮🇳",
-    "education":   "Diploma in AI & ML — 91.65% 🎓",
+    "education":   "Diploma in AI & ML — 89.59% 🎓",
     "focus":       [
                       "Generative AI",
                       "RAG Pipelines + Semantic Search",
@@ -87,7 +87,8 @@ rutuja = {
 - LangGraph state machine orchestration
 - Modern SaaS-style frontend
 
-[![View Project](https://img.shields.io/badge/View_Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RutujaDeshmukh29)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://ai-multi-agent-workspace.vercel.app/)
+[![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RutujaDeshmukh29/AI-Multi-Agent-Research-Engineering-Workspace.git)
 
 </td>
 <td width="50%">
@@ -196,7 +197,7 @@ rutuja = {
 |---|---|
 | 🏆 **IET Expo 2026** | Presented AgroBot at national-level technical exhibition |
 | 📄 **Research Published** | IJARCCE — AgroBot AI Autonomous Mower |
-| 🎓 **91.65% AIML Diploma** | Top performance in AI & Machine Learning |
+| 🎓 **89.59% AIML Diploma** | Top performance in AI & Machine Learning |
 | ☁️ **AWS Certified** | AWS Academy Graduate — Cloud Foundations |
 | 🤖 **LangGraph Certified** | Build AI Agents using LangGraph — Simplilearn |
 | 🚀 **Live AI Product** | AI Learning Companion deployed on Streamlit Cloud |

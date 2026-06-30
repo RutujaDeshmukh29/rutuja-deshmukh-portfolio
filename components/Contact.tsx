@@ -103,7 +103,7 @@ export default function Contact() {
                 <span className="font-mono text-green-400 text-sm">Open to Opportunities</span>
               </div>
               <h3 className="font-display text-2xl font-bold text-white mb-3">
-                Hire Me as Your AI Engineer
+                Work with Me as an AI Engineer
               </h3>
               <p className="font-body text-zinc-400 leading-relaxed mb-6">
                 Specializing in RAG pipelines, multi-agent systems, LangGraph workflows,

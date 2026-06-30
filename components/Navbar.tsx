@@ -99,7 +99,7 @@ export default function Navbar() {
               <ExternalLink size={13} />
             </a>
             <a href="#contact" className="btn-primary text-sm py-2 px-5">
-              Hire Me
+              Let&apos;s Connect
             </a>
           </div>
 
@@ -143,7 +143,7 @@ export default function Navbar() {
                   Download Resume
                 </a>
                 <a href="#contact" onClick={() => setMobileOpen(false)} className="btn-primary text-center">
-                  Hire Me
+                  Let&apos;s Connect
                 </a>
               </div>
             </div>

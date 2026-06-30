@@ -34,9 +34,9 @@ const achievements = [
   },
   {
     icon: Star,
-    title: "91.65% – Diploma AIML",
+    title: "89.59% – Diploma AIML",
     subtitle: "K. K. Wagh Polytechnic",
-    desc: "Achieved 91.65% in the 5th Semester of Diploma in Artificial Intelligence and Machine Learning — top performance in core AI subjects.",
+    desc: "Achieved 89.59% in the Diploma in Artificial Intelligence and Machine Learning — top performance in core AI subjects.",
     tag: "🎓 Academic Excellence",
     color: "purple",
     accent: "from-purple-500 to-violet-500",
