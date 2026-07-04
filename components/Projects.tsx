@@ -15,6 +15,7 @@ import {
   Code2,
   Database,
   Layers,
+  TrendingUp,
 } from "lucide-react";
 
 interface Project {
@@ -57,6 +58,30 @@ const projects: Project[] = [
     color: "from-indigo-600 to-purple-600",
     badge: "🏆 Flagship",
     accentColor: "indigo",
+  },
+  {
+    id: "signaliq",
+    title: "SignalIQ",
+    subtitle: "AI-Powered Market & Competitive Intelligence Dashboard",
+    description:
+      "A strategic dashboard that collects trending market signals, scores them by velocity, and surfaces ranked insights with AI-generated action steps so you know what's moving before your competitors do.",
+    longDesc:
+      "SignalIQ was built to solve the data overload problem for founders and strategists. Instead of spending hours reading generic news feeds, SignalIQ uses a custom recommendation engine to scan public sources and score signals based on recency, velocity, and relevance to your specific industry. It features a transparent weighting system that learns from your feedback, a 3D-reactive user interface with ambient glows, dynamic Recharts velocity tracking, and an automated Competitor Radar to track rival brand mentions in real-time.",
+    tech: ["React", "Vite", "React Router", "Recharts", "CSS", "LocalStorage"],
+    features: [
+      "Personalized Intelligence Feed",
+      "Competitor Radar tracking threats/opportunities",
+      "Interactive 7-day trend velocity visualization",
+      "Transparent Recommendation Engine with feedback loops",
+      "AI Daily Digest executive summaries",
+      "Premium Reactive UI with 3D tilting and glassmorphism",
+    ],
+    github: "https://github.com/RutujaDeshmukh29/SignalIQ.git",
+    demo: "https://signaliq-ai.vercel.app/",
+    icon: TrendingUp,
+    color: "from-orange-500 to-amber-600",
+    badge: "🚀 Live Demo",
+    accentColor: "amber",
   },
   {
     id: "learning",
@@ -126,6 +151,12 @@ const accentMap: Record<string, { text: string; border: string; bg: string; glow
     border: "border-cyan-500/30",
     bg: "bg-cyan-500/10",
     glow: "shadow-cyan-500/20",
+  },
+  amber: {
+    text: "text-amber-400",
+    border: "border-amber-500/30",
+    bg: "bg-amber-500/10",
+    glow: "shadow-amber-500/20",
   },
 };
 
