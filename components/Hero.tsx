@@ -105,7 +105,7 @@ export default function Hero() {
         </motion.div>
 
         <Image
-          src="/profile.jpg"
+          src="/profile.png"
           alt="Rutuja Deshmukh"
           width={192}
           height={192}
