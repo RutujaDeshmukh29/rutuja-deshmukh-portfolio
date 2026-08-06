@@ -207,7 +207,7 @@ export default function Hero() {
         >
           {[
             { value: "6+", label: "AI Projects" },
-            { value: "89.59%", label: "Diploma AIML" },
+            { value: "89.76%", label: "Diploma AIML" },
             { value: "RAG", label: "Architecture" },
             { value: "1", label: "Published Paper" },
           ].map(({ value, label }) => (

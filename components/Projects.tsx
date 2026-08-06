@@ -16,6 +16,8 @@ import {
   Database,
   Layers,
   TrendingUp,
+  Terminal,
+  Leaf,
 } from "lucide-react";
 
 interface Project {
@@ -58,6 +60,28 @@ const projects: Project[] = [
     color: "from-indigo-600 to-purple-600",
     badge: "🏆 Flagship",
     accentColor: "indigo",
+  },
+  {
+    id: "shubham-terminal-portfolio",
+    title: "Shubham Kunde — Developer & AI Terminal Portfolio",
+    subtitle: "Full-Stack Web App / AI & Cyber Terminal",
+    description: "A high-performance developer portfolio and research publication showcase engineered with Next.js 15, Tailwind CSS, Framer Motion, and Web Audio API featuring an interactive CLI terminal and serverless email dispatch.",
+    longDesc: "Designed and engineered a futuristic Hacker Workstation portfolio for AI & Cyber Security practitioner Shubham Kunde. Built with Next.js 15 App Router and TypeScript, it features an interactive Linux-style CLI terminal supporting custom live commands (help, bio, skills, projects, paper, exp, contact, cat resume, sudo, clear), an in-browser retro mechanical keyclick synthesizer using the native Web Audio API, real-time reactive canvas grid with cursor vector connections, automated background mail delivery via FormSubmit API, and a dedicated spotlight section for a published IJARCCE international research paper.",
+    tech: ["Next.js 15", "TypeScript", "Tailwind CSS", "Web Audio API", "Framer Motion", "FormSubmit API", "Vercel"],
+    features: [
+      "Interactive Linux CLI Terminal supporting typed commands & quick run buttons",
+      "Web Audio Synthesizer producing retro mechanical keypress sound feedback",
+      "Interactive Canvas Mesh Grid with ambient glowing mesh & cursor connections",
+      "Serverless Direct Mail Dispatch sending automated messages directly to Gmail inbox",
+      "Published IJARCCE Research Paper spotlight section & certificate viewer",
+      "Categorized Bento Grid layouts & dual bi-directional scrolling tech marquee"
+    ],
+    github: "https://github.com/RutujaDeshmukh29/shubham-kunde-portfolio",
+    demo: "https://shubham-kunde-portfolio.vercel.app/",
+    icon: Terminal,
+    color: "from-lime-400 to-emerald-700",
+    badge: "🚀 Live Demo",
+    accentColor: "lime",
   },
   {
     id: "signaliq",
@@ -106,6 +130,28 @@ const projects: Project[] = [
     color: "from-purple-600 to-pink-600",
     badge: "🚀 Live Demo",
     accentColor: "purple",
+  },
+  {
+    id: "ecocart",
+    title: "EcoCart",
+    subtitle: "Full-Stack E-Commerce & Plastic Offset Platform",
+    description: "A modern, eco-conscious e-commerce web application featuring nature-infused glassmorphism aesthetics, floating leaf micro-animations, real-time plastic offset tracking, and printable order certificates.",
+    longDesc: "EcoCart is a full-stack sustainable e-commerce platform built to promote eco-friendly consumer habits while quantifying environmental impact in real time. Built with Django 5 and Django REST Framework, the platform delivers a cohesive zero-waste shopping experience across 14 custom-designed UI pages. It incorporates a custom nature glassmorphism design system with CSS particle physics, a persistent localStorage cart manager, real-time promo discount engine, resilient multi-step checkout with payment simulation fallbacks, and printable order certificate generation.",
+    tech: ["Python", "Django 5", "Django REST Framework", "JavaScript (ES6+)", "Tailwind CSS", "WhiteNoise", "Vercel Serverless", "SQLite"],
+    features: [
+      "Nature Glassmorphism Design System with CSS floating leaf particle animations",
+      "Real-time product-level plastic saved metrics (plastic_saved_kg)",
+      "Persistent client-side localStorage shopping cart and promo discount engine",
+      "Resilient multi-step checkout pipeline with automated printable order certificates",
+      "Custom user management supporting profile picture uploads and SVG avatar fallbacks",
+      "Serverless deployment on Vercel with WhiteNoise static asset delivery"
+    ],
+    github: "https://github.com/RutujaDeshmukh29/EcoCart",
+    demo: "https://ecocart-ecom-website.vercel.app/",
+    icon: Leaf,
+    color: "from-green-500 to-emerald-600",
+    badge: "🚀 Live Demo",
+    accentColor: "green",
   },
   {
     id: "agrobot",
@@ -157,6 +203,24 @@ const accentMap: Record<string, { text: string; border: string; bg: string; glow
     border: "border-amber-500/30",
     bg: "bg-amber-500/10",
     glow: "shadow-amber-500/20",
+  },
+  emerald: {
+    text: "text-emerald-400",
+    border: "border-emerald-500/30",
+    bg: "bg-emerald-500/10",
+    glow: "shadow-emerald-500/20",
+  },
+  lime: {
+    text: "text-lime-400",
+    border: "border-lime-500/30",
+    bg: "bg-lime-500/10",
+    glow: "shadow-lime-500/20",
+  },
+  green: {
+    text: "text-green-400",
+    border: "border-green-500/30",
+    bg: "bg-green-500/10",
+    glow: "shadow-green-500/20",
   },
 };
 
