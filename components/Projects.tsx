@@ -18,6 +18,7 @@ import {
   TrendingUp,
   Terminal,
   Leaf,
+  BrainCircuit,
 } from "lucide-react";
 
 interface Project {
@@ -62,26 +63,25 @@ const projects: Project[] = [
     accentColor: "indigo",
   },
   {
-    id: "shubham-terminal-portfolio",
-    title: "Shubham Kunde — Developer & AI Terminal Portfolio",
-    subtitle: "Full-Stack Web App / AI & Cyber Terminal",
-    description: "A high-performance developer portfolio and research publication showcase engineered with Next.js 15, Tailwind CSS, Framer Motion, and Web Audio API featuring an interactive CLI terminal and serverless email dispatch.",
-    longDesc: "Designed and engineered a futuristic Hacker Workstation portfolio for AI & Cyber Security practitioner Shubham Kunde. Built with Next.js 15 App Router and TypeScript, it features an interactive Linux-style CLI terminal supporting custom live commands (help, bio, skills, projects, paper, exp, contact, cat resume, sudo, clear), an in-browser retro mechanical keyclick synthesizer using the native Web Audio API, real-time reactive canvas grid with cursor vector connections, automated background mail delivery via FormSubmit API, and a dedicated spotlight section for a published IJARCCE international research paper.",
-    tech: ["Next.js 15", "TypeScript", "Tailwind CSS", "Web Audio API", "Framer Motion", "FormSubmit API", "Vercel"],
+    id: "adapted-ai",
+    title: "AdaptEd AI",
+    subtitle: "Full-Stack AI & Adaptive EdTech Platform",
+    description: "An AI-powered adaptive learning platform that replaces one-size-fits-all education with a dynamic learner model that continuously tracks topic mastery, calibrates question difficulty in real time, and personalizes study paths based on individual student performance.",
+    longDesc: "Traditional educational software delivers fixed, static study plans that ignore differences in student pacing, prior knowledge, and learning gaps. AdaptEd AI solves this by implementing a closed-loop Learn → Measure → Adapt → Improve architecture driven by an active mathematical learner model.\n\nThe platform integrates a private, local Retrieval-Augmented Generation (RAG) pipeline allowing students to upload syllabuses and textbooks for grounded, citation-backed tutoring across 6 pedagogical personas (including Socratic Guide, Exam/Viva Prep, and Code-First Mentor). Using an Exponential Moving Average (EMA) algorithm, it continuously recalculates student topic mastery and cognitive caliber to dynamically unlock prerequisite roadmap nodes, prescribe explainable Next Best Learning Actions (NBLA), and formulate targeted Python coding challenges for weak topics. Additionally, it features an interactive Vector Diagram Studio and a dedicated Parent Observer Portal with real-time study telemetry and non-repeating sync keys that keep student learning workspaces strictly secure.",
+    tech: ["Next.js 16", "TypeScript", "FastAPI", "Gemini AI", "ChromaDB", "PostgreSQL"],
     features: [
-      "Interactive Linux CLI Terminal supporting typed commands & quick run buttons",
-      "Web Audio Synthesizer producing retro mechanical keypress sound feedback",
-      "Interactive Canvas Mesh Grid with ambient glowing mesh & cursor connections",
-      "Serverless Direct Mail Dispatch sending automated messages directly to Gmail inbox",
-      "Published IJARCCE Research Paper spotlight section & certificate viewer",
-      "Categorized Bento Grid layouts & dual bi-directional scrolling tech marquee"
+      "Dynamic Learner Modeling & EMA Mastery prescribing data-backed Next Best Learning Actions",
+      "Privacy-First Local RAG & Document Intelligence with exact page number citations",
+      "Adaptive AI Tutor with 6 Pedagogical Personas including voice recognition and audio narration",
+      "Weak-Topic Coding Lab & Real-Time AI Reviewer analyzing Big-O time/space complexity",
+      "Vector Diagram Studio & Visualizer with live Mermaid syntax editing and SVG exports",
+      "Dual-Factor Parent Observer Portal with real-time study telemetry and zero access to student tests"
     ],
-    github: "https://github.com/RutujaDeshmukh29/shubham-kunde-portfolio",
-    demo: "https://shubham-kunde-portfolio.vercel.app/",
-    icon: Terminal,
-    color: "from-lime-400 to-emerald-700",
-    badge: "🚀 Live Demo",
-    accentColor: "lime",
+    github: "https://github.com/RutujaDeshmukh29/Adaptive-AI",
+    icon: BrainCircuit,
+    color: "from-slate-800 to-zinc-900",
+    badge: "🧠 Adaptive EdTech AI",
+    accentColor: "slate",
   },
   {
     id: "signaliq",
@@ -221,6 +221,12 @@ const accentMap: Record<string, { text: string; border: string; bg: string; glow
     border: "border-green-500/30",
     bg: "bg-green-500/10",
     glow: "shadow-green-500/20",
+  },
+  slate: {
+    text: "text-slate-400",
+    border: "border-slate-500/30",
+    bg: "bg-slate-500/10",
+    glow: "shadow-slate-500/20",
   },
 };
 
