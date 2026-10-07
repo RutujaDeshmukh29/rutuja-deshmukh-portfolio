@@ -192,6 +192,14 @@ export default function Hero() {
             <Download size={16} />
             Resume
           </a>
+          <a
+            href="/Rutuja_Deshmukh_Tech_Profile.pdf"
+            download
+            className="btn-ghost flex items-center gap-2"
+          >
+            <Download size={16} />
+            Tech Profile
+          </a>
           <a href="#contact" className="btn-ghost flex items-center gap-2">
             <Linkedin size={16} />
             Let&apos;s Connect
